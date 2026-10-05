@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Lab — JavaScript Events Interactive Learning</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-brand">
+                <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="เปิด/ปิด เมนู">☰</button>
+                <h1>Event Lab</h1>
+                <span>เรียนรู้ JavaScript Events แบบลงมือทำจริง</span>
+            </div>
+            <button class="theme-toggle" id="themeToggle" title="สลับโหมด มืด/สว่าง">
+                <span id="themeIcon">🌙</span>
+            </button>
+        </header>
+
+        <!-- Sidebar -->
+        <aside class="app-sidebar" id="appSidebar">
+            <nav id="mainNav">
+                <!-- Navigation items injected here -->
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="app-main" id="appMain">
+            <div class="content-wrapper" id="mainContent">
+                <!-- Content injected here -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Application Script -->
+    <script src="js/bundle.js"></script>
+</body>
+</html>
